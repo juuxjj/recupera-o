@@ -1,0 +1,230 @@
+<!doctype html>
+ <html lang="pt-BR">
+ <head>
+
+ <title>Bootstrap</title>
+
+ <meta charset="utf-8">
+ <meta name="viewport" content="width=device-width,
+initial-scale=1, shrink-to-fit=no">
+	<!-- Bootstrap CSS -->
+ <link
+href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/b
+ootstrap.min.css" rel="stylesheet" integrity="sha384-
+1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6j
+IW3" crossorigin="anonymous">
+ <link rel="stylesheet"
+
+href="https://cdn.jsdelivr.net/npm/bootstrap-
+icons@1.8.1/font/bootstrap-icons.css">
+
+ </head>
+	<body>
+
+<!-- Início do conteúdo -->
+
+ <!-- Fim do conteúdo -->
+
+ <!-- Bootstrap JavaScript -->
+ <script
+src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/boo
+tstrap.bundle.min.js" integrity="sha384-
+ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4
++1p" crossorigin="anonymous"></script>
+
+ </body>
+</html>
+<div class="container">
+ <div class="row">
+ <div class="col-6 bg-primary p-5">Coluna 1</div>
+<div class="col-6 bg-danger p-5">Coluna 2</div>
+	 </div>
+ </div>
+<div class="container">
+<div class="row justify-content-*">
+ <div class="col-4">
+ 1 de 2 colunas
+ </div>
+ <div class="col-4">
+	 1 de 2 colunas
+ </div>
+ </div>
+ </div>
+<div class="container">
+ <div class="row">
+ <div class="offset-1 col-4 bg-primary p-5">Coluna 1</div>
+ <div class="offset-1 col-4 bg-danger p-5">Coluna 2</div>
+ </div>
+ </div>
+<div class="container">
+ <div class="row g-5">
+
+ <div class="col-6"><div class="bg-primary">1</div></div>
+ <div class="col-6"><div class="bg-danger">2</div></div>
+<div class="col-6"><div class="bg-warning">3</div></div>
+ <div class="col-6"><div class="bg-secondary">4</div></div>
+ <div class="col-6"><div class="bg-success">5</div></div>
+ <div class="col-6"><div class="bg-info">6</div></div>
+	</div>
+</div>
+<div class="container">
+ <div class="row g-2 mt-2">
+
+ <div class="col-6"><div class="bg-primary">1</div></div>
+ <div class="col-6"><div class="bg-danger">2</div></div>
+ <div class="col-6"><div class="bg-warning">3</div></div>
+ <div class="col-6"><div class="bg-secondary">4</div></div>
+ <div class="col-6"><div class="bg-success">5</div></div>
+	 <div class="col-6"><div class="bg-info">6</div></div>
+
+ </div>
+ </div>
+<div class="bg-warning col-2 fixed-top p-5">Fixo no
+topo</div>
+<div class="bg-success col-2 fixed-bottom p-5">Fixo no
+rodapé</div>
+<div class="bg-danger col-3 visually-hidden p-5">Texto
+escondido</div>
+<div class="bg-warning col-2 fixed-top p-5">Fixo no
+topo</div>
+<div class="bg-success col-2 fixed-bottom p-5">Fixo no
+rodapé</div>
+<div class="bg-danger col-3 p-5 position-absolute start-50
+top-50">
+ Texto Escondido
+ </div>
+<div class="bg-danger col-3 p-5 position-absolute
+start-50 top-50 translate-middle">
+ Texto escondido
+ </div>
+<div class="bg-warning col-2 fixed-top p-5 position-absolute
+start-0 top-50 translate-middle-y">Fixo no topo</div>
+ <div class="bg-success col-2 p-5 position-absolute bottom-0
+end-0">Fixo no rodapé</div>
+ <div class="bg-danger col-3 p-5 position-absolute start-50
+top-50 translate-middle">
+ Texto escondido
+ </div>
+<div class="bg-warning fixed-top p-5 w-50">w-50</div>
+ <div class="bg-success p-5 position-absolute bottom-0 end-0
+w-25">
+ w-25
+	 </div>
+ <div class="bg-danger p-5 position-absolute start-50 top-50
+ translate-middle w-100"> w-100
+ </div>
+<div class="bg-warning fixed-top p-5 h-50 w-50">h-50</div>
+ <div class="bg-success p-5 position-absolute bottom-0 end-0
+w-100 h-100">
+ w-25
+ </div>
+ <div class="bg-danger p-5 position-absolute start-50 top-50
+			 translate-middle w-25 h-100">
+ w-100
+ </div>
+<div class="bg-warning fixed-top p-5 h-50 w-50 shadow
+opacity-75">
+ h-50
+</div>
+<div class="bg-success p-5 position-absolute bottom-0 end-
+0
+
+ w-100 h-100 shadow">
+ w-25
+ </div>
+
+ <div class="bg-danger p-5 position-absolute start-50 top-
+50
+
+ translate-middle w-25 h-100 opacity-75 shadow">
+ w-100
+ </div>
+<div class="container">
+
+ <!-- posição -->
+ <p class="text-start">Início</p>
+ <p class="text-center">Centro</p>
+ <p class="text-end">Direita</p>
+
+ <!-- cor -->
+ <p class="text-muted">Texto desbotado</p>
+ <p class="text-success">Texto verde</p>
+ <p class="text-danger">Texto vermelho</p>
+ <p class="text-warning">Texto laranja</p>
+	<p class="text-primary">Texto azul</p>
+ <p class="text-info">Texto azul ciano</p>
+ <p class="text-secondary">Texto cinza</p>
+ <p class="text-dark">Texto preto</p>
+ <p class="text-light bg-dark">Texto branco</p>
+
+ </div>
+<a href="#">Link padrão</a>
+ <a href="#" class="link-success">Link verde</a>
+ <a href="#" class="link-danger">Link vermelho</a>
+<!-- < p > com diplay-6 -->
+ <p class="text-muted bg-light p-2">< p > com diplay-6</p>
+ <p>Texto comum</p>
+ <p class="display-6">Texto grande</p>
+
+ <!-- < span > com diplay-2 -->
+ <p class="text-muted bg-light p-2 mt-5">< span > com diplay-2</p>
+ <p>
+ Texto comum com um <span class="display-2">texto grande</span>
+ embutido </p>
+<!-- < h1 > com diplay-1 -->
+ <p class="text-muted bg-light p-2 mt-5">< h1 > com diplay-1</p>
+ <h1>Um título</h1>
+ <h1 class="display-1">O maior título possível</h1>
+<p>Um texto</p>
+ <p class="small">Um texto menor</p>
+<p>Parágrafo comum</p>
+ <p class="lead">Parágrafo com destaque</p>
+<!-- Imagem responsive: img-fluid -->
+ <div class="container">
+ <div class="w-25 float-start">.col-1
+ <div class="col-1">
+ <img src="lion.jpg" class="img-fluid">
+	 </div>
+ <div class="col-2">.col-2
+ <img src="lion.jpg" class="img-fluid">
+ </div>
+ </div>
+ <div class="w-25 float-start">
+ <div class="col-3">.col-3
+ <img src="lion.jpg" class="img-fluid">
+ </div>
+ <div class="col-4">.col-4
+ <img src="lion.jpg" class="img-fluid">
+ </div>
+ </div>
+ <div class="w-25 float-start">
+ <div class="col-5">.col-5
+ <img src="lion.jpg" class="img-fluid">
+ </div>
+ <div class="col-6">.col-6
+ <img src="lion.jpg" class="img-fluid">
+ </div>
+ </div>
+ <div class="w-25 float-start">
+ <div class="col-7">.col-7
+ <img src="lion.jpg" class="img-fluid">
+ </div>
+ <div class="col-8">.col-8
+ <img src="lion.jpg" class="img-fluid">
+ </div>
+ </div>
+	 </div>
+
+ <!-- Moldura: img-thumbnail -->
+ <img src="lion.jpg" class="img-thumbnail">
+
+ <!-- Bordas redondas: rounded -->
+ <img src="lion.jpg" class="rounded">
+<!-- esquerda -->
+ <img src="lion.jpg" class="float-start w-25">
+
+ <!-- direta -->
+ <img src="lion.jpg" class="float-end w-25">
+
+ <!-- centro-->
+ <img src="lion.jpg" class="d-block mx-auto w-25">
